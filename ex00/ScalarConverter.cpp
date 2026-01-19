@@ -6,7 +6,7 @@
 /*   By: macoulib <macoulib@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/09 15:00:26 by macoulib          #+#    #+#             */
-/*   Updated: 2026/01/18 16:27:55 by macoulib         ###   ########.fr       */
+/*   Updated: 2026/01/19 14:16:48 by macoulib         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ void printFloat (float f)
 
 bool isChar(const std::string& representation) {
     size_t len = representation.length();
-   if (len == 1 && std::isalpha(representation[0])) return true;
+   if (len == 1 ) return true;
   
      if (representation[0] != '\'' || representation[len - 1] != '\'')
         return false;
